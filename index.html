@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="header">
+    <h1>WEATHER APP</h1>
+    <div>
+        <input type="text" id="input" placeholder="Enter City Name...">
+        <button id="search">Search</button>
+    </div>
+    </div>
+    <main>
+        <div class="weather">
+            <h2 id="city">Delhi, IN</h2>
+            <div class="temp-box">
+            <img src="https://img.freepik.com/free-psd/3d-icon-weather-conditions-with-rain-sun_23-2150108737.jpg?size=626&ext=jpg&uid=R72409764&ga=GA1.1.1206429206.1703774507&semt=ais" alt="" id="img" />
+            <p id="temperature">26 C</p>
+        </div>
+        <span id="clouds">Broken Clouds</span>
+    </div>
+    <div class="divider1"></div>
+
+    <div class="forecastH">
+      <p class="cast-header">Upcoming forecast</p>
+        <div class="templist">
+            <div class="next">
+            <div>
+                <p class="time">8:30 PM</p>
+                <p>29 C / 25 C</p>
+            </div>
+            <p class="desc">Light Rain</p>
+          </div>
+          <div class="next">
+            <div>
+                <p class="time">8:30 PM</p>
+                <p>29 C / 25 C</p>
+            </div>
+            <p class="desc">Light Rain</p>
+          </div>
+          <div class="next">
+            <div>
+                <p class="time">8:30 PM</p>
+                <p>29 C / 25 C</p>
+            </div>
+            <p class="desc">Light Rain</p>
+          </div>
+          <div class="next">
+            <div>
+                <p class="time">8:30 PM</p>
+                <p>29 C / 25 C</p>
+            </div>
+            <p class="desc">Light Rain</p>
+          </div>
+          <div class="next">
+            <div>
+                <p class="time">8:30 PM</p>
+                <p>29 C / 25 C</p>
+            </div>
+            <p class="desc">Light Rain</p>
+           </div>
+        </div>
+    </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="divider2"></div>
+            <p class="cast-header">Next 4 Days Forecast</p>
+            <div class="weekF">
+                <div class="dayF">
+                    <p class="date">Sun Jul 03 2022</p>
+                    <p>31 C / 25 C</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+                <div class="dayF">
+                    <p class="date">Sun Jul 03 2022</p>
+                    <p>31 C / 25 C</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+                <div class="dayF">
+                    <p class="date">Sun Jul 03 2022</p>
+                    <p>31 C / 25 C</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+                <div class="dayF">
+                    <p class="date">Sun Jul 03 2022</p>
+                    <p>31 C / 25 C</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+        </div>
+    </div>
+    <script src="/script.js" type="module"></script>
+</body>
+</html>
